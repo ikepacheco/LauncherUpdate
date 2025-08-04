@@ -1,0 +1,41 @@
+name: Sync Release Files to GitHub Pages /update/
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  copy-release-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download release assets
+        uses: robinraju/release-downloader@v1.9
+        with:
+          repository: ikepacheco/LauncherUpdate
+          tag: ${{ github.event.release.tag_name }}
+          out-file-path: release_assets
+          extract: false
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Copy assets to /update/
+        run: |
+          mkdir -p gh-pages/update
+          cp release_assets/* gh-pages/update/
+
+      - name: Commit and push to gh-pages
+        run: |
+          cd gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add update/
+          git commit -m "Update release assets to /update from ${{ github.event.release.tag_name }}" || echo "No changes"
+          git push
