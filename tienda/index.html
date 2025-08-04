@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher - Tienda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF;
+            color: #333333;
+            padding: 5px;
+            line-height: 1.2;
+            font-size: 11px;
+            width: 605px;
+            height: 520px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section {
+            margin-bottom: 5px;
+            height: 165px;
+            width: 100%;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            height: 18px;
+        }
+
+        .store-row {
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 141px;
+            white-space: nowrap;
+            font-size: 0;
+        }
+
+        .item-card {
+            display: inline-block;
+            width: 115px;
+            height: 135px;
+            margin: 0 1px;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            vertical-align: top;
+            position: relative;
+            transition: transform 0.1s ease;
+            font-size: 11px;
+        }
+
+        .item-card:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Marcos para posiciones de ventas */
+        .item-card.gold {
+            border: 2px solid #ffd700;
+            background-color: #fffbf0;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+        }
+
+        .item-card.silver {
+            border: 2px solid #c0c0c0;
+            background-color: #f8f8f8;
+            box-shadow: 0 0 10px rgba(192, 192, 192, 0.4);
+        }
+
+        .item-card.bronze {
+            border: 2px solid #cd7f32;
+            background-color: #fdf6f0;
+            box-shadow: 0 0 10px rgba(205, 127, 50, 0.4);
+        }
+
+        .item-card.normal {
+            border: 1px solid #e1e8ed;
+            background-color: #f8f9fa;
+        }
+
+        .position-badge {
+            position: absolute;
+            top: -6px;
+            left: 50%;
+            margin-left: -12px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        .position-badge.gold {
+            background-color: #ffd700;
+            color: #333;
+        }
+
+        .position-badge.silver {
+            background-color: #c0c0c0;
+            color: #333;
+        }
+
+        .position-badge.bronze {
+            background-color: #cd7f32;
+            color: white;
+        }
+
+        .position-badge.normal {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .item-image {
+            width: 45px;
+            height: 45px;
+            border-radius: 6px;
+            background-color: #dee2e6;
+            margin: 8px auto 6px;
+            display: block;
+            border: 1px solid #adb5bd;
+            position: relative;
+        }
+
+        .item-rarity {
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+
+        .item-rarity.legendary {
+            background-color: #ff6b35;
+        }
+
+        .item-rarity.epic {
+            background-color: #a855f7;
+        }
+
+        .item-rarity.rare {
+            background-color: #3b82f6;
+        }
+
+        .item-rarity.common {
+            background-color: #6b7280;
+        }
+
+        .item-name {
+            font-size: 10px;
+            font-weight: bold;
+            margin-bottom: 3px;
+            color: #2c3e50;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .item-price {
+            font-size: 11px;
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        .item-sales {
+            font-size: 8px;
+            color: #6c757d;
+        }
+
+        /* Estilos específicos por tienda */
+        .donor-store .section-title {
+            color: #dc3545;
+        }
+
+        .vip-store .section-title {
+            color: #6f42c1;
+        }
+
+        .ladder-store .section-title {
+            color: #fd7e14;
+        }
+
+        /* Indicadores de descuento */
+        .discount-badge {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background-color: #dc3545;
+            color: white;
+            font-size: 7px;
+            padding: 1px 3px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        /* Indicador de stock */
+        .stock-indicator {
+            font-size: 7px;
+            color: #868e96;
+            margin-top: 1px;
+        }
+
+        .stock-indicator.low {
+            color: #dc3545;
+        }
+
+        .stock-indicator.medium {
+            color: #ffc107;
+        }
+
+        .stock-indicator.high {
+            color: #28a745;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sección: Tienda Donor -->
+        <div class="section donor-store">
+            <h2 class="section-title">💎 Top 5 Tienda Donor</h2>
+            <div class="store-row">
+
+
+                <div class="item-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="discount-badge">-20%</div>
+                    <div class="item-image">
+                        <div class="item-rarity legendary"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900622.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Avatar Goku Blue (Women)</div>
+                    <div class="item-price">1000 Coins</div>
+                    <div class="item-sales">15 vendidos</div>
+                    <div class="stock-indicator low">Sin stock</div>
+                </div>
+                <div class="item-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="discount-badge">-20%</div>
+                    <div class="item-image">
+                        <div class="item-rarity legendary"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881056.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Red Thorn Body</div>
+                    <div class="item-price">350 Coins</div>
+                    <div class="item-sales">11 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="discount-badge">-20%</div>
+                    <div class="item-image">
+                        <div class="item-rarity legendary"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881052.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Anime Blu</div>
+                    <div class="item-price">1000 Coins</div>
+                    <div class="item-sales">9 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="discount-badge">-20%</div>
+                    <div class="item-image">
+                        <div class="item-rarity legendary"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881081.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">T.Thunder Body</div>
+                    <div class="item-price">350 Coins</div>
+                    <div class="item-sales">8 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="discount-badge">-20%</div>
+                    <div class="item-image">
+                        <div class="item-rarity legendary"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900825.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Dark Void</div>
+                    <div class="item-price">1000 Coins</div>
+                    <div class="item-sales">6 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección: Tienda VIP -->
+        <div class="section vip-store">
+            <h2 class="section-title">👑 Top 5 Tienda VIP</h2>
+            <div class="store-row">
+
+                <div class="item-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881015.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Fallen Angels Hands</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">6 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900821.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">BlackRedKatana</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">5 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900833.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Yamato</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">5 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900823.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Daedricsword</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">4 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881047.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Coat Twitch Rosado</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">4 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección: Tienda Ladder -->
+        <div class="section ladder-store">
+            <h2 class="section-title">⚔️ Top 5 Tienda Ladder</h2>
+            <div class="store-row">
+
+                <div class="item-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900809.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">MC Gold Sword</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">3 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_881013.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Momia Blanca</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">3 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900812.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">MC Silver Sword</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">2 vendidos</div>
+                    <div class="stock-indicator low">Sin stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1900814.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Ravager</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">2 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+                <div class="item-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="item-image">
+                        <div class="item-rarity epic"></div><img
+                            src="../../assets/images/shop/icons/itemicon_1910017.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: contain; border-radius: 0px;">
+                    </div>
+                    <div class="item-name">Winchester</div>
+                    <div class="item-price">1000 Cash</div>
+                    <div class="item-sales">1 vendidos</div>
+                    <div class="stock-indicator high">En stock</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

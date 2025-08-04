@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher - Noticias</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFF;
+        color: #333333;
+        padding: 8px;
+        line-height: 1.3;
+        font-size: 12px;
+        width: 605px;
+        height: 520px;
+        overflow: hidden;
+    }
+
+    .news-container {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        border: 2px solid #666666;
+        border-radius: 12px;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .news-header {
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e1e8ed;
+        padding-bottom: 10px;
+    }
+
+    .news-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2c3e50;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .news-subtitle {
+        font-size: 11px;
+        color: #6c757d;
+        margin-top: 3px;
+    }
+
+    .news-list {
+        height: 400px;
+        overflow-y: auto;
+        padding-right: 5px;
+    }
+
+    .news-item {
+        background-color: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 10px;
+        position: relative;
+        transition: background-color 0.2s ease;
+    }
+
+    .news-item:hover {
+        background-color: #e9ecef;
+    }
+
+    .news-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .news-item.important {
+        border-left: 4px solid #dc3545;
+        background-color: #fff5f5;
+    }
+
+    .news-item.update {
+        border-left: 4px solid #28a745;
+        background-color: #f8fff9;
+    }
+
+    .news-item.maintenance {
+        border-left: 4px solid #ffc107;
+        background-color: #fffdf5;
+    }
+
+    .news-item.event {
+        border-left: 4px solid #007bff;
+        background-color: #f8fbff;
+    }
+
+    .news-date {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 9px;
+        color: #868e96;
+        background-color: #ffffff;
+        padding: 2px 6px;
+        border-radius: 10px;
+        border: 1px solid #dee2e6;
+    }
+
+    .news-category {
+        display: inline-block;
+        font-size: 8px;
+        padding: 2px 6px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .news-category.important {
+        background-color: #dc3545;
+    }
+
+    .news-category.update {
+        background-color: #28a745;
+    }
+
+    .news-category.maintenance {
+        background-color: #ffc107;
+        color: #333;
+    }
+
+    .news-category.event {
+        background-color: #007bff;
+    }
+
+    .news-item-title {
+        font-size: 13px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 5px;
+        padding-right: 60px;
+        line-height: 1.2;
+    }
+
+    .news-item-content {
+        font-size: 11px;
+        color: #495057;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+
+    .news-item-author {
+        font-size: 9px;
+        color: #6c757d;
+        font-style: italic;
+    }
+
+    /* Scrollbar personalizada */
+    .news-list::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .news-list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+    }
+
+    .news-list::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+    }
+
+    .news-list::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+    }
+
+    /* Status indicators */
+    .status-indicator {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    .status-indicator.online {
+        background-color: #28a745;
+    }
+
+    .status-indicator.offline {
+        background-color: #dc3545;
+    }
+
+    .status-indicator.maintenance {
+        background-color: #ffc107;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="news-container">
+        <div class="news-header">
+            <h1 class="news-title">📰 Noticias del Juego</h1>
+            <p class="news-subtitle">Últimas actualizaciones y anuncios</p>
+        </div>
+
+        <div class="news-list">
+            <div class="news-item event">
+                <div class="news-date">26 Jul 2025</div>
+                <div class="news-category event">Evento</div>
+                <h3 class="news-item-title">Re-apertura 2026 !!</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator online"></span>
+                    ¡Participa en el gran torneo de re-apertura! Premios exclusivos para los primeros 100 jugadores.
+                    Inscripciones abiertas hasta el 1 de enero de 2026. No te pierdas esta oportunidad única.
+                </p>
+                <p class="news-item-author">Por: DemonFas</p>
+            </div>
+            <div class="news-item update">
+                <div class="news-date">12 Jul 2025</div>
+                <div class="news-category update">Actualización</div>
+                <h3 class="news-item-title">Parche 26.20.25 - Nuevas Características</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator online"></span>
+                    • Nuevo sistema de rankings mejorado + Corrección de bugs en el modo ladder<br>
+                    • Optimizaciones de rendimiento<br>
+                    • Nuevas recompensas para Clanes/Ladder<br>
+                    • Nuevo Launcher + Nueva protección
+                </p>
+                <p class="news-item-author">Por: DemonFas</p>
+            </div>
+            <div class="news-item important">
+                <div class="news-date">30 Ago 2024</div>
+                <div class="news-category important">Importante</div>
+                <h3 class="news-item-title">Mantenimiento de Emergencia Programado</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator maintenance"></span>
+                    Los servidores estarán fuera de línea el 30 de agosto de 02:00 AM hasta nuevo aviso, por ahora
+                    nos concentraremos en mejorar la experiencia del usuario.
+                </p>
+                <p class="news-item-author">Por: DemonFas</p>
+            </div>
+            <!-- 
+            <div class="news-item maintenance">
+                <div class="news-date">08 Ene 2024</div>
+                <div class="news-category maintenance">Mantenimiento</div>
+                <h3 class="news-item-title">Mantenimiento Semanal Completado</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator online"></span>
+                    El mantenimiento programado se ha completado exitosamente. Todos los servidores están operativos.
+                    Tiempo de inactividad: 2 horas. Gracias por su paciencia.
+                </p>
+                <p class="news-item-author">Por: Administración</p>
+            </div>
+
+            <div class="news-item update">
+                <div class="news-date">05 Ene 2024</div>
+                <div class="news-category update">Actualización</div>
+                <h3 class="news-item-title">Hotfix 2.4.0.1 - Correcciones Críticas</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator online"></span>
+                    Solucionados problemas de desconexión durante las partidas clasificatorias. Mejorada la estabilidad
+                    del sistema de clanes. Corrección de exploits menores.
+                </p>
+                <p class="news-item-author">Por: Equipo Técnico</p>
+            </div>
+
+            <div class="news-item event">
+                <div class="news-date">03 Ene 2024</div>
+                <div class="news-category event">Evento</div>
+                <h3 class="news-item-title">Evento de Año Nuevo - Recompensas Dobles</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator offline"></span>
+                    [FINALIZADO] Durante todo enero, todos los jugadores recibieron recompensas dobles en experiencia y
+                    puntos de clan. ¡Gracias a todos los que participaron!
+                </p>
+                <p class="news-item-author">Por: Equipo de Eventos</p>
+            </div>
+
+            <div class="news-item important">
+                <div class="news-date">01 Ene 2024</div>
+                <div class="news-category important">Anuncio</div>
+                <h3 class="news-item-title">¡Feliz Año Nuevo 2024!</h3>
+                <p class="news-item-content">
+                    <span class="status-indicator online"></span>
+                    El equipo de desarrollo les desea un próspero año nuevo. Esperamos seguir brindando la mejor
+                    experiencia de juego. ¡Grandes sorpresas vienen en camino!
+                </p>
+                <p class="news-item-author">Por: Dirección General</p>
+            </div>
+            -->
+        </div>
+    </div>
+</body>
+
+</html>

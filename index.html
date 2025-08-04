@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher - Rankings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF;
+            color: #333333;
+            padding: 5px;
+            line-height: 1.2;
+            font-size: 11px;
+            width: 610px;
+            height: 501px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section {
+            margin-bottom: 5px;
+            height: 150px;
+            width: 100%;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            height: 18px;
+        }
+
+        .ranking-row {
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 126px;
+            white-space: nowrap;
+            font-size: 0;
+        }
+
+        .player-card {
+            display: inline-block;
+            width: 105px;
+            height: 120px;
+            margin: 0 1px;
+            padding: 6px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            vertical-align: top;
+            position: relative;
+            transition: transform 0.1s ease;
+            font-size: 11px;
+        }
+
+        .player-card:hover {
+            transform: translateY(-1px);
+        }
+
+        /* Marcos para posiciones */
+        .player-card.gold {
+            border: 2px solid #ffd700;
+            background-color: #fffbf0;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+        }
+
+        .player-card.silver {
+            border: 2px solid #c0c0c0;
+            background-color: #f8f8f8;
+            box-shadow: 0 0 8px rgba(192, 192, 192, 0.3);
+        }
+
+        .player-card.bronze {
+            border: 2px solid #cd7f32;
+            background-color: #fdf6f0;
+            box-shadow: 0 0 8px rgba(205, 127, 50, 0.3);
+        }
+
+        .player-card.normal {
+            border: 1px solid #e1e8ed;
+            background-color: #f8f9fa;
+        }
+
+        .position-badge {
+            position: absolute;
+            top: -6px;
+            left: 50%;
+            margin-left: -10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        .position-badge.gold {
+            background-color: #ffd700;
+            color: #333;
+        }
+
+        .position-badge.silver {
+            background-color: #c0c0c0;
+            color: #333;
+        }
+
+        .position-badge.bronze {
+            background-color: #cd7f32;
+            color: white;
+        }
+
+        .position-badge.normal {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .player-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #dee2e6;
+            margin: 6px auto 5px;
+            display: block;
+            border: 1px solid #adb5bd;
+        }
+
+        .player-name {
+            font-size: 10px;
+            font-weight: bold;
+            margin-bottom: 2px;
+            color: #2c3e50;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .player-score {
+            font-size: 9px;
+            color: #6c757d;
+            margin-bottom: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .player-level {
+            font-size: 8px;
+            color: #868e96;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Estilos específicos para clanes */
+        .clan-card .player-avatar {
+            border-radius: 4px;
+        }
+
+        .clan-members {
+            font-size: 8px;
+            color: #868e96;
+            margin-top: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Iconos en títulos más pequeños */
+        .section-title {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sección: Mejores Jugadores -->
+        <div class="section">
+            <h2 class="section-title">🏆 Top Jugadores</h2>
+            <div class="ranking-row">
+                <div class="player-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">C0xi</div>
+                    <div class="player-score">XP: 9,817,648</div>
+                    <div class="player-level">Nv. 49</div>
+                </div>
+                <div class="player-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">Snacks</div>
+                    <div class="player-score">XP: 7,585,543</div>
+                    <div class="player-level">Nv. 45</div>
+                </div>
+                <div class="player-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/gSOwXc3Z.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name"> :D </div>
+                    <div class="player-score">XP: 2,847,952</div>
+                    <div class="player-level">Nv. 34</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">Xs1HPTs</div>
+                    <div class="player-score">XP: 2,179,187</div>
+                    <div class="player-level">Nv. 31</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">GiusXner</div>
+                    <div class="player-score">XP: 1,331,613</div>
+                    <div class="player-level">Nv. 27</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección: Mejores Jugadores Ladder -->
+        <div class="section">
+            <h2 class="section-title">⚔️ Top Ladder</h2>
+            <div class="ranking-row">
+
+                <div class="player-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/gSOwXc3Z.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name"> :D </div>
+                    <div class="player-score">Elo: 0</div>
+                    <div class="player-level">W/L/D: 0/0/0</div>
+                </div>
+                <div class="player-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">eresTuDios_</div>
+                    <div class="player-score">Elo: 0</div>
+                    <div class="player-level">W/L/D: 0/0/0</div>
+                </div>
+                <div class="player-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">[B]lue</div>
+                    <div class="player-score">Elo: 0</div>
+                    <div class="player-level">W/L/D: 0/0/0</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">ElCreador</div>
+                    <div class="player-score">Elo: 0</div>
+                    <div class="player-level">W/L/D: 0/0/0</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="player-avatar"><img src="../assets/images/avatars/signinleft.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">Adar</div>
+                    <div class="player-score">Elo: 0</div>
+                    <div class="player-level">W/L/D: 0/0/0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección: Mejores Clanes -->
+        <div class="section">
+            <h2 class="section-title">🛡️ Top Clanes</h2>
+            <div class="ranking-row">
+
+                <div class="player-card gold">
+                    <div class="position-badge gold">1</div>
+                    <div class="player-avatar"><img src="../emblem/emblemnull.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">Star</div>
+                    <div class="player-score">Point: 248</div>
+                    <div class="player-level">W/L/D: 26/0/0</div>
+                    <div class="player-level">Master: Snacks</div>
+                </div>
+                <div class="player-card silver">
+                    <div class="position-badge silver">2</div>
+                    <div class="player-avatar"><img src="../emblem/emblemnull.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">Fear</div>
+                    <div class="player-score">Point: 158</div>
+                    <div class="player-level">W/L/D: 14/0/0</div>
+                    <div class="player-level">Master: C0xi</div>
+                </div>
+                <div class="player-card bronze">
+                    <div class="position-badge bronze">3</div>
+                    <div class="player-avatar"><img src="../emblem/emblemnull.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">GODS</div>
+                    <div class="player-score">Point: 8</div>
+                    <div class="player-level">W/L/D: 4/0/0</div>
+                    <div class="player-level">Master: kanox</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">4</div>
+                    <div class="player-avatar"><img src="../emblem/emblemnull.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">KOREANOS</div>
+                    <div class="player-score">Point: 8</div>
+                    <div class="player-level">W/L/D: 2/0/0</div>
+                    <div class="player-level">Master: AIZAWA</div>
+                </div>
+                <div class="player-card normal">
+                    <div class="position-badge normal">5</div>
+                    <div class="player-avatar"><img src="../emblem/emblemnull.png" alt="Avatar"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                    <div class="player-name">LosNegros</div>
+                    <div class="player-score">Point: 6</div>
+                    <div class="player-level">W/L/D: 1/0/0</div>
+                    <div class="player-level">Master: Artigas</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
