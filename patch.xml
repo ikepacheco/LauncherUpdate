@@ -37,6 +37,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>DXSDK_Jun10.exe</name>
+    <path>\</path>
+    <sha256>705271dc83bfee54d9b94e028426e288d5f070784b7446d164f48ecfbb2a02cb</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>dxwebsetup.exe</name>
     <path>\</path>
     <sha256>2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f</sha256>
