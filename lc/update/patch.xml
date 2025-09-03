@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<XML>
+<PATCHINFO>
+	<PATCHNODE file="./shield.dll">
+		<SIZE>7897088</SIZE>
+		<CHECKSUM>26ca5f5c40d7ac2101c7d75bd19a23e0</CHECKSUM>
+	</PATCHNODE>
+	<PATCHNODE file="./system.xtg">
+		<SIZE>185963</SIZE>
+		<CHECKSUM>a0a17e405c80db797556f90c896c72fd</CHECKSUM>
+	</PATCHNODE>
+</PATCHINFO>
+</XML>
