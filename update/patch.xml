@@ -1077,25 +1077,25 @@
   <fileitem>
     <name>combat.xtg</name>
     <path>\Interface</path>
-    <sha256>7ce282fe50a2fc34f637315526a14bb4678e989a1de39e0eda134293fca91037</sha256>
+    <sha256>5117d9602d75e720dc489654c8e978757d064fc144af36e2026e143ef6b381ea</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>4142020f4ca007aa39e475c44a7d08e7e1bcce4c1b794ebde3822aa327fbee17</sha256>
+    <sha256>70dd322e07156f7eebd2642f6845ce711f614daff4f261ea7cdb96a028977361</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>icons.xtg</name>
     <path>\Interface</path>
-    <sha256>0eea688bf847138772e152052d21aa7d07cdf8b7a8725a5fecd28bcc9d05640d</sha256>
+    <sha256>4369ca87f61319f5d7d350e2d59967b628cd3d41af731b19e108fc5c67483376</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>Loading.xtg</name>
     <path>\Interface</path>
-    <sha256>c78c5e1e2f924830037083aa739dc3cf6ab986bb6d3295e250419d62cd67a317</sha256>
+    <sha256>e21e679afa46346e8890a6bb888250986ccbb2541ead17ceab1addb4309e9df4</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1119,7 +1119,7 @@
   <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
-    <sha256>ac2e37b5a88b756ee6f287a2ec83479169468d04537cad64d92d1bf3e3e3cf7b</sha256>
+    <sha256>18c8f3e735e7b5212c18096fbd194bcc919629a5f0be3979a873e46f6b64d8e2</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1149,7 +1149,7 @@
   <fileitem>
     <name>bgm.xtg</name>
     <path>\sound</path>
-    <sha256>b2f986a896c582d710f696e06e11aa5b41c10ac2730b4eb7ae50afe7a673dc6d</sha256>
+    <sha256>9866fafdcfd188d61d630c3b02fdd40d3fd57b5c88902b6978cb0915b81d91d2</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
