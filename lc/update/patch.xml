@@ -2,8 +2,8 @@
 <XML>
 <PATCHINFO>
 	<PATCHNODE file="./shield.dll">
-		<SIZE>7897088</SIZE>
-		<CHECKSUM>f5ff4df47edb4df43e79f7400e1dbf94</CHECKSUM>
+		<SIZE>7896064</SIZE>
+		<CHECKSUM>e44d153c445fdbcae948a7fa0ed9a897</CHECKSUM>
 	</PATCHNODE>
 	<PATCHNODE file="./system.xtg">
 		<SIZE>185963</SIZE>
