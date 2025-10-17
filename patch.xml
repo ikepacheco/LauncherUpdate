@@ -43,6 +43,7 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+  <fileitem>
     <name>dxwebsetup.exe</name>
     <path>\</path>
     <sha256>2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f</sha256>
@@ -99,7 +100,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>2c1c4f89f83a0a8a0b608cff7acf4804357b397f75be5e4187fb81dc40bd38d3</sha256>
+    <sha256>ef4cf239eba270280c35de2224e70f2e2c84b286d8bbccaf8471af61cef0abac</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
