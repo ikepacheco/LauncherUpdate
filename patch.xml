@@ -75,7 +75,7 @@
   <fileitem>
     <name>maps.xtg</name>
     <path>\</path>
-    <sha256>692e1ff1b614a951c0c2d079f3fec8616740998e3e39883a1873f9a2a1026e05</sha256>
+    <sha256>9a6cdd08a6fb8f8958677182ec0be34a32281f8ea630c4277547956e0bddbb4c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>4f26fa55f62e99ec95b2b1c7c91e3af31343f86e487f88486dea913f90eeea38</sha256>
+    <sha256>2c1c4f89f83a0a8a0b608cff7acf4804357b397f75be5e4187fb81dc40bd38d3</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>511b3c0318c0ff4915977832ebdb36b0a81215f46e82682380a5823e894ea41d</sha256>
+    <sha256>53fe66894ef425793ad2287c99239704b775adddbe8a95ccf28b5f1e42f4026b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1111,6 +1111,216 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Battle Arena.xtg</name>
+    <path>\Maps</path>
+    <sha256>fd0855a8a5b57e3c455b3b36047406a54f967cdef8a6a21d7c2672c20dcb29bd</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Castle.xtg</name>
+    <path>\Maps</path>
+    <sha256>bfb3737d23dca13cdb6ee8f97ed12fb523278a7e828533a477cd078ff2515399</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Catacomb.xtg</name>
+    <path>\Maps</path>
+    <sha256>beca1c72ced3f1acbd22b152796238667f19ced79b889be1f9e6871e093a8c9d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Citadel.xtg</name>
+    <path>\Maps</path>
+    <sha256>71a5332ecd91d235d0561de7bf721cc49f7e256b20fa396071433897afb78fcd</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>de_dust2.xtg</name>
+    <path>\Maps</path>
+    <sha256>f6de2e00ed5e7672e45380d61e96d380b77008d3f5b6913e8faf8698067d367e</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Dojo.xtg</name>
+    <path>\Maps</path>
+    <sha256>af67167cdecb5a5a4a105a08ca89e597b7f2cdbb40d325fc8e2c8a48889852b6</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Dungeon.xtg</name>
+    <path>\Maps</path>
+    <sha256>f8bfd9fe900cd5c69bfbc79f96a6b74e078e95f91e415b81e9374666321ee9c6</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Factory.xtg</name>
+    <path>\Maps</path>
+    <sha256>f8f3dd2d55f75ada75f0a93014abe869dd2a46f031ab944f5b8bf3ca894be346</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Garden.xtg</name>
+    <path>\Maps</path>
+    <sha256>cc184b0a4eb28c83fa0a2abf3282a26e09c95110b46ab5fefaf37a8c776873fe</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Hall.xtg</name>
+    <path>\Maps</path>
+    <sha256>3e371b0a4c9b15ab229c3cd11b7bb2f08ced683f686afc5607190b6d336eb931</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Halloween Town.xtg</name>
+    <path>\Maps</path>
+    <sha256>6d45ad7d8f45518cf196c58ad1e95c38a933a9b6368ff672446a3b5f28857b69</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>House_Simpsons2.xtg</name>
+    <path>\Maps</path>
+    <sha256>2561f61206af165a491055300ee74e6aa2bb2905f577f48ac4b69745a695318c</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Island.xtg</name>
+    <path>\Maps</path>
+    <sha256>1e62a43ba1c73505a831c303af16f4c4a1adff95081f1cd916dd3299a2f8a06f</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Jail.xtg</name>
+    <path>\Maps</path>
+    <sha256>b7a33bfa6926f31457f81f8080cc604ba3d71ee9185bbf8a6d1fe946ddf12ebf</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Lost Shrine.xtg</name>
+    <path>\Maps</path>
+    <sha256>f699bee000e00be935847c882f0d2699bab94c213d2a305c8824c52d01956f4d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>mansion.xtg</name>
+    <path>\Maps</path>
+    <sha256>a5f07816aab6730d513a0f609e18088ac04b1cad45e191751d34088e5f6a1c8f</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Mario-Castle.xtg</name>
+    <path>\Maps</path>
+    <sha256>182924f8b84c7baa2f2663633bfbf91e582db0d3a915af2051eb3039718a615d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Port.xtg</name>
+    <path>\Maps</path>
+    <sha256>437e56f133b547fc47d0094b261a7676034da805fa98e166badfa7bb4c834349</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>prison II.xtg</name>
+    <path>\Maps</path>
+    <sha256>343b80efdf04e940ac9f65a01b80c13101b18cfdb19982839e1b9046bb0bfb51</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>prison.xtg</name>
+    <path>\Maps</path>
+    <sha256>d1fd2a9c88f5f2f406972b00b485650839778a386e1cac57512a39e9e72da520</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Ruin.xtg</name>
+    <path>\Maps</path>
+    <sha256>07952bfb972b71b59927a5d1bb0cf1922881fd49cc6105bca040214e9346f2ac</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Shower Room.xtg</name>
+    <path>\Maps</path>
+    <sha256>d7b781a35b2a3a366cf4c48aecb4a19f50c21641d5ad26aed17989aecd6b25b0</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>SkillMapV1.xtg</name>
+    <path>\Maps</path>
+    <sha256>a78957f6eaad7761b65f4d7a3369cb9f2a8d226032b99c0d317b92c5ef827c55</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>SkillMapV2.xtg</name>
+    <path>\Maps</path>
+    <sha256>a6248897e4270011a041ed899ad2c2e5c48ca5065aa317d4cb62f14c5202ea29</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>SkillMapV3.xtg</name>
+    <path>\Maps</path>
+    <sha256>6307e582138773b90c692b0338ad5e0a5397b3d036aa806261ad5611679c2ab1</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>SkillMapV4.xtg</name>
+    <path>\Maps</path>
+    <sha256>bd9bdfa289e8fcfe0cbdec2c7aec6b777221cebad508240557d45720a88964a9</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Skyline.xtg</name>
+    <path>\Maps</path>
+    <sha256>8055de1a08b6bdf856757bdfc8d6c42fca547b0fa538d181f4eb041e452b0e8d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Snow Town.xtg</name>
+    <path>\Maps</path>
+    <sha256>61eaa71cf95f3e1478f3925c431d9c5fb5f912877e7fad57897d53e573a7e855</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Stairway.xtg</name>
+    <path>\Maps</path>
+    <sha256>d4a092532a559a6051a122875fe42bcb6e646ed7146b225508498d82bbb38ac9</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>station.xtg</name>
+    <path>\Maps</path>
+    <sha256>396eb29333aafa8120619f8b1dece3e278801dad73da9d2312a0048103a7e25a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Superflip.xtg</name>
+    <path>\Maps</path>
+    <sha256>af0d69976db9c441fd53338ac2f40b668278e3d705eee1f8248896c40fe0e1c9</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>SuperMario3.xtg</name>
+    <path>\Maps</path>
+    <sha256>1cc4c38c81140a7d8585ede7f0c02047bb3b400e6fb23a1af78b2b67270f0302</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>TheOffice.xtg</name>
+    <path>\Maps</path>
+    <sha256>8a5e9d33a7715cc5c771724149f5fc362ebf6543883b3158a6c2caf7cac0d7ed</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Town.xtg</name>
+    <path>\Maps</path>
+    <sha256>587e5395446be1eb798671130676d311be54ed00ebd0b444ea8345a08ad77a17</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>WeaponShop.xtg</name>
+    <path>\Maps</path>
+    <sha256>56aa62325e0286be272e51a1a1353a7e3ede344eccaab58987a3d52628073f4a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>man.xtg</name>
     <path>\Model</path>
     <sha256>250c342ba1c1b084138749df44aa5947f4495266b34d8bba9579fc8d4f5f6a5c</sha256>
@@ -1119,13 +1329,13 @@
   <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
-    <sha256>8762f397c788c0c423890cad9b4240d1b605fe3ddf63b3c3a53ee218c34c8ec6</sha256>
+    <sha256>e36b0233f694dc323683eeeb50f2a6af81e854857aa24bb9262383dc2195024e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>woman.xtg</name>
     <path>\Model</path>
-    <sha256>7fe1881021d980f71ee0dce7104858cb29d4495cee3a0b1f7bfa9b620b8f2ecb</sha256>
+    <sha256>f125c44ef0fa17301218801e4e97035edd5ad210da4b4c48baf543c778b0a8e5</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
