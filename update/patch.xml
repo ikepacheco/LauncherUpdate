@@ -109,30 +109,6 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
-    <name>crosshair.png</name>
-    <path>\CROSSHAIR</path>
-    <sha256>b444d0284118bed8229b940b15b86ad11b767e0e4223740629a853005a1ea85b</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
-    <name>crosshair1.png</name>
-    <path>\CROSSHAIR</path>
-    <sha256>f09e6cae22077608b9aa3bbc61f31a963c3dcee8f95e0bdb5afa74a6e065f2e2</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
-    <name>crosshair1_pick.png</name>
-    <path>\CROSSHAIR</path>
-    <sha256>1dac127b6d2a2bd00d19f308a1deea1ca64ac83814596ee893cf7951f04a46b3</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
-    <name>crosshair_pick.png</name>
-    <path>\CROSSHAIR</path>
-    <sha256>90ef292b9676ca881bd4a22c791821ffd885a10c35dc7c36d947d75832c9d38c</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
     <name>Apr2005_d3dx9_25_x64.cab</name>
     <path>\directx_jun2010</path>
     <sha256>b4188ce988af9c4771ae0abcc7edc42a091133f9f20196564f51755dc55ea85d</sha256>
