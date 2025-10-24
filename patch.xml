@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>a4d6a1f01881b85cdc42890d8bc1b9a41b6e768b2a2d79e2a124e4aa16e5efaf</sha256>
+    <sha256>96a31c6347476f4dcd5641826ec4d33a99316856cbe8499c8358b9c9fb088ae7</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1299,7 +1299,7 @@
   <fileitem>
     <name>man.xtg</name>
     <path>\Model</path>
-    <sha256>250c342ba1c1b084138749df44aa5947f4495266b34d8bba9579fc8d4f5f6a5c</sha256>
+    <sha256>8241a956e1aa603acdb1b4ab66836adb61649e2d9cdce14839a043eec3d561b7</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
