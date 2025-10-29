@@ -99,13 +99,19 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>0c7508ec0e1ea2f053e9beeb42c4c78fbc6159ce2266fd4b4971232962df2375</sha256>
+    <sha256>ee909082ba28e1eca62dd826e108ab02bbe2b30e3cbf3534d93f9c326ba63562</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
     <sha256>62d142f0aae6d170f2f38ce205da407d9548d374b2db22d31ce235242f7084fb</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>xTreme Entertainment PE.cer</name>
+    <path>\</path>
+    <sha256>5b38ab430cdabc991fb43bfac3bee6ad75f3503d25ec47a91dfb744dfb556953</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
