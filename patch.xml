@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>39f2239cb3e06d1dbc0cd53071fa8cd46bf197f4b001c51e93a302412df7744f</sha256>
+    <sha256>14a6706f907cc347d4e90f646e248ec2f12abfa40b1a0d6e632193087d024b97</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>499e1a938e13393fa67821865fb1524631b1546edb4c9b27b65a9d7007b7f445</sha256>
+    <sha256>0f24a517058db6483021ac15297137b2607cc7b1a86949567a5aab5654e52eab</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1065,7 +1065,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>fa825864279beab34f3e2a71bb47e3527c8cf863a0e07a59ff3d4641b323d002</sha256>
+    <sha256>51810d30bdb65afad17529b31ac086440b163d12adf1d3fe1e2fa5e4b0c3741d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1096,6 +1096,12 @@
     <name>Battle Arena.xtg</name>
     <path>\Maps</path>
     <sha256>fd0855a8a5b57e3c455b3b36047406a54f967cdef8a6a21d7c2672c20dcb29bd</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>BlitzKrieg.xtg</name>
+    <path>\Maps</path>
+    <sha256>fd08d2309e7b312d8bf0d3f88b5df36584de7df4ce4302afc82b0bd21640da54</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1185,7 +1191,13 @@
   <fileitem>
     <name>mansion.xtg</name>
     <path>\Maps</path>
-    <sha256>a5f07816aab6730d513a0f609e18088ac04b1cad45e191751d34088e5f6a1c8f</sha256>
+    <sha256>1cc952598f8f11e5aec8f8711815c12fcddb9b7e981519e79f9577b636c591bf</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>MansionOld.xtg</name>
+    <path>\Maps</path>
+    <sha256>dd147ed49fc268c45e7eb8223ec67395a48081877c8a417a5f5fb516b5ac08cf</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1249,6 +1261,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>SkirmishHall.xtg</name>
+    <path>\Maps</path>
+    <sha256>359ea583ce5cfc77a19afec3d1daf773f1f03d35ef933b451f468fba4480c04a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Skyline.xtg</name>
     <path>\Maps</path>
     <sha256>8055de1a08b6bdf856757bdfc8d6c42fca547b0fa538d181f4eb041e452b0e8d</sha256>
@@ -1273,6 +1291,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>StationNew.xtg</name>
+    <path>\Maps</path>
+    <sha256>fcb78771c86729cc53c11b6d8612d67302045165e6026b205a923375854d2533</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Superflip.xtg</name>
     <path>\Maps</path>
     <sha256>af0d69976db9c441fd53338ac2f40b668278e3d705eee1f8248896c40fe0e1c9</sha256>
@@ -1293,7 +1317,13 @@
   <fileitem>
     <name>Town.xtg</name>
     <path>\Maps</path>
-    <sha256>587e5395446be1eb798671130676d311be54ed00ebd0b444ea8345a08ad77a17</sha256>
+    <sha256>66d43b04b957a72236b27ca77552469064c3e900265dfe1f3aa663b9cc8469d9</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>TownOld.xtg</name>
+    <path>\Maps</path>
+    <sha256>401a1a9e8118af2f898bc5c0d70c16dddef889f3706aa1fcefe8bd0d4fcc62c3</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
