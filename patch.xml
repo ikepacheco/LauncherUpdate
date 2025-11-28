@@ -1101,7 +1101,7 @@
   <fileitem>
     <name>battle ruins.xtg</name>
     <path>\Maps</path>
-    <sha256>c6ff251a332ee3d53d8446cf0da53e3d117c1e02e65d217fdd107e7454597ff4</sha256>
+    <sha256>45983cd088c2f0d87c29653656d1f5cd73b179240a91a1be5cd63471d896dd3d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1281,7 +1281,7 @@
   <fileitem>
     <name>league of teams.xtg</name>
     <path>\Maps</path>
-    <sha256>472c8bfc8708bb569e855cc52af38413196e1b63c1fa12ce1f5e174412a69efe</sha256>
+    <sha256>a68292546b2b1d322a62e0260669d20b41bb80d01a9a7d7bac469aa31949841c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1311,7 +1311,7 @@
   <fileitem>
     <name>paradise island.xtg</name>
     <path>\Maps</path>
-    <sha256>20af92450cd404e9d64f384583ef7992a20fd270d7c45fb8006719b0808fd5f6</sha256>
+    <sha256>3f5e6ef7687bf549ebd2c24d4e1711cb5e58eb131364c5aa2f190115f83724bc</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
