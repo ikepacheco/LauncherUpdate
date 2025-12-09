@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>425021a68d90415de2dccaeeb605a6274a00f7274d11b967bd15098b31d3cadd</sha256>
+    <sha256>0b8320c28cc5ff9d51696e5d781d2c41d17424491c2a8bc7fecbb2ff63d53e2e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1473,7 +1473,7 @@
   <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
-    <sha256>d9a10b206b9619b593b56583e7807a3cf824086744af0c69335a5db4b08cf0cf</sha256>
+    <sha256>31f8e9b0e22347e9189e8800d5943616d1c01751b89b7006157acb2dcb0faac7</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
