@@ -93,7 +93,7 @@
   <fileitem>
     <name>sfx.xtg</name>
     <path>\</path>
-    <sha256>260fd5112002c785deb99b4b9f6f06ce196985881d61204b564e60e9668b19a4</sha256>
+    <sha256>8e38021d83b90a2046de7d48d783122107a8d39ad2667d8d57ca3caa3f368c7b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>0b8320c28cc5ff9d51696e5d781d2c41d17424491c2a8bc7fecbb2ff63d53e2e</sha256>
+    <sha256>8e4ba3e88ce002c5cbbe7e3feeffa2e4bca65f6d3ef447eb8fe1e07d1fcabb41</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
