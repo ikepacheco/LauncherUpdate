@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>8e4ba3e88ce002c5cbbe7e3feeffa2e4bca65f6d3ef447eb8fe1e07d1fcabb41</sha256>
+    <sha256>3a41c2ae7e4b3411943f8b9513400a4df8b2cc4dd48a0098ad4cf78a98b14f5c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1093,6 +1093,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Atack-Defense.xtg</name>
+    <path>\Maps</path>
+    <sha256>b7934ca856f5981e9fde691690613e205addb1222ef6e21e2420919ca952211d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Battle Arena.xtg</name>
     <path>\Maps</path>
     <sha256>fd0855a8a5b57e3c455b3b36047406a54f967cdef8a6a21d7c2672c20dcb29bd</sha256>
@@ -1168,6 +1174,12 @@
     <name>Citadel.xtg</name>
     <path>\Maps</path>
     <sha256>71a5332ecd91d235d0561de7bf721cc49f7e256b20fa396071433897afb78fcd</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>cs_Mansion.xtg</name>
+    <path>\Maps</path>
+    <sha256>ecac9575afadc5076f5439d3bcf86ff9ef9f4c5e90f7795610d27e0d890be762</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1255,6 +1267,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Hot_Summer.xtg</name>
+    <path>\Maps</path>
+    <sha256>1b924f9d0d45c07a8f9ac38e4720cac49f8f51629b3312ceadadc3454afc040c</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>House_Simpsons2.xtg</name>
     <path>\Maps</path>
     <sha256>2561f61206af165a491055300ee74e6aa2bb2905f577f48ac4b69745a695318c</sha256>
@@ -1306,6 +1324,24 @@
     <name>Mario-Castle.xtg</name>
     <path>\Maps</path>
     <sha256>182924f8b84c7baa2f2663633bfbf91e582db0d3a915af2051eb3039718a615d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>NewFactory.xtg</name>
+    <path>\Maps</path>
+    <sha256>c220e7319162c29472674839659b470588ba849e5a542580cd8510cdd032da37</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>NewGarden.xtg</name>
+    <path>\Maps</path>
+    <sha256>4a673926fe092cb9a7d16ea7ca67f79fbd0b2db0016a3688096bc28da596a058</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>NewPort.xtg</name>
+    <path>\Maps</path>
+    <sha256>f8f0aa802143e6a4d49239d79674ad9b94551bc69110ecd4a45f99259ab5199c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
