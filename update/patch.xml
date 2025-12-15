@@ -81,7 +81,7 @@
   <fileitem>
     <name>Model.xtg</name>
     <path>\</path>
-    <sha256>2c9fcd9753f4d24c5929b971d2f556e57d0a1934f695ae64c559da1a652920c6</sha256>
+    <sha256>25942490016e0d4d7b88c996f0b55ed635567a1726435e0e79c4cb5778966c5c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>d7f7559edfd51f9bb01fffbf944321df95f9adffd5b8bbe126be1e25850b8641</sha256>
+    <sha256>75a29333178e5149d6dff5baaf3d8acfc79694e4c0a5af2ff1eba95e545a1d76</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1479,7 +1479,7 @@
   <fileitem>
     <name>Town.xtg</name>
     <path>\Maps</path>
-    <sha256>66d43b04b957a72236b27ca77552469064c3e900265dfe1f3aa663b9cc8469d9</sha256>
+    <sha256>96f1ab95cf46d835b840198fa688f052178c0ad491dcc4a05572987f427c05f8</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1515,13 +1515,19 @@
   <fileitem>
     <name>woman.xtg</name>
     <path>\Model</path>
-    <sha256>5941e346a854ab382334f48e469dc6b05996d611b245b4a508eb9e4105bbffaa</sha256>
+    <sha256>50682cccd90f3d4ac9e3430566e3177e485148a404d06157c27354cb8294202c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>worlditem.xtg</name>
     <path>\Model</path>
     <sha256>98c3cf13341e665f879da14656d4c7c272ee6fda03a0d708f0b77c8a5e15a662</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>XTREME_WOMAN.xtg</name>
+    <path>\Model\woman</path>
+    <sha256>e9238a64244914edae930112cc29d0a378a99ee3724d43b811c086538f49b66d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
