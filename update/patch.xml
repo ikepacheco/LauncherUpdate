@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>3df5394416b1d05aee8163b47d61b7c079f9c75e86a6e66db606b96df98c8a58</sha256>
+    <sha256>48f9553905b62cbb02cbef8c84b994808f6049380a0fbb1013559a8d2fd21344</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>97547c450a03075aa9d1d88d25ebf8128202d2bbfcbca8aff08edc7bf37f55b0</sha256>
+    <sha256>7dadf88c9821f6c130c00673be6659018d132ac7ff413ed486567001788fc51b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1509,7 +1509,7 @@
   <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
-    <sha256>31f8e9b0e22347e9189e8800d5943616d1c01751b89b7006157acb2dcb0faac7</sha256>
+    <sha256>bd51746f04348c1a3cdf7639b27e673693de3667eafc0e88263dc1d2cfd5dddd</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
