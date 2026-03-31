@@ -99,7 +99,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>381efb88c58d3fa96b14f3aae024d5078506d9a231e21ab0a64344899ffa6602</sha256>
+    <sha256>5057df470a43f9c76279e9cd6592242edbe95cdabaf4351994b34dacc12f1506</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1065,7 +1065,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>f9ad1c4d540e92bef0e90ad47f4c8461616b768bb216745bc5826b9f85714039</sha256>
+    <sha256>ff11b4c0efb5f6757e5f11767af1dd8ad55891fb25018037bc8dd4a7871464ed</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
