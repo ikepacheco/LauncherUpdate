@@ -111,7 +111,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>f59937307745353e7db723b8417afc047410a719417a8aa452c40026d86265ac</sha256>
+    <sha256>c84fedbddf4541a18f6605d7a550e80c53a16e3ed6eb4d6d666b6d437a5ff6ff</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2577,7 +2577,7 @@
   <fileitem>
     <name>XTREME_WOMAN2.xtg</name>
     <path>\Model\woman</path>
-    <sha256>1c8b98aab35f1e9a3b42e72e7f244478602ce00935ecfe98c49be7ae32b046cf</sha256>
+    <sha256>816b23514471354b9eee9a8fa2b2b6f0560be39c0222fead2f783738986a505a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
