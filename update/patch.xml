@@ -19,6 +19,11 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>d3d9.dll</name>
+    <path>\</path>
+    <sha256>5ea4001ec0a3b0beb302d584f7c6785f7b8d938750bd314c1a81172360d5547d</sha256>
+  </fileitem>
+  <fileitem>
     <name>D3DX9_43.dll</name>
     <path>\</path>
     <sha256>0b28546be22c71834501f7d7185ede5d79742457331c7ee09efc14490dd64f5f</sha256>
@@ -105,7 +110,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>719d39757b2d80a23dda24cd88f3b352b5201be050ce5781b82213608f22c1e1</sha256>
+    <sha256>033b4bca9662b0c86e5c159326bd3b33d02458c9cc0c6603b0601207c3c8d463</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1167,7 +1172,7 @@
   <fileitem>
     <name>AngryBirds_WH.xtg</name>
     <path>\Maps</path>
-    <sha256>b7d78b94ba94f1af1081db710ffefd7b1f389e199d66b6576c9b4b6c3a3c7dab</sha256>
+    <sha256>8e3231aa455b94fa377383d929045f6b3fd7c32e301391f55c1750a93d65dc70</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1186,6 +1191,12 @@
     <name>Atack-Defense.xtg</name>
     <path>\Maps</path>
     <sha256>7706b01bbfe9eefde7a8b1cfc213cf4a6f5aacf1f7d38a57f20d2287d81a799d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>awp_india.xtg</name>
+    <path>\Maps</path>
+    <sha256>91e9f3adc507095ab6c3c8439ac60921ac2bad61cbcae1b08dedfc313fba2a27</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1240,6 +1251,12 @@
     <name>BlueV5.xtg</name>
     <path>\Maps</path>
     <sha256>ee9e086758a8ca053ee696116f0d8cbf38aed181fb29afd419b51a5c99304d32</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Burgh.xtg</name>
+    <path>\Maps</path>
+    <sha256>e0fbc4c440087a68a434b4abdeafd7e2070f6a8482ce3acc77e8b46ff639b173</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1327,9 +1344,21 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>City II.xtg</name>
+    <path>\Maps</path>
+    <sha256>09d8cca818ee16d0142b4a6f1a758e202642423c58a0b2399533d3a9caaffe29</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Complicated_TrailV1.xtg</name>
     <path>\Maps</path>
     <sha256>c462b4707aa8042ad5bfc1d7d9e5caf4685a23580342e8f229475feccfa790ff</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Control Center.xtg</name>
+    <path>\Maps</path>
+    <sha256>d58350071cf87fecbc16cf1dac7f62136499dc476140bdb0f412d028a6053627</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1375,6 +1404,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Desertion.xtg</name>
+    <path>\Maps</path>
+    <sha256>0b59373f36692f2546bb0a3d1ba450efb4e2f2e35fd4a6e154b433bb595a88f0</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>de_aztec.xtg</name>
     <path>\Maps</path>
     <sha256>524fe97979603072e69a15075d45a0d6cb413403f6a09a7bf9820da53b0b410e</sha256>
@@ -1390,6 +1425,12 @@
     <name>Dojo.xtg</name>
     <path>\Maps</path>
     <sha256>1e7c1088effd647cc253c67b659c89f1491987bfab440adadb3123064458b942</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Downtown.xtg</name>
+    <path>\Maps</path>
+    <sha256>337ec2e7195d9c70db0f829bca2c6eadf17a4d44112fafc145fd5eef52e35a78</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1513,6 +1554,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>fy_pool_day.xtg</name>
+    <path>\Maps</path>
+    <sha256>a6fea834b31c8dce94d30b16bcc79322097471489495cbe218395e49cf2eb600</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Garden.xtg</name>
     <path>\Maps</path>
     <sha256>cc184b0a4eb28c83fa0a2abf3282a26e09c95110b46ab5fefaf37a8c776873fe</sha256>
@@ -1564,6 +1611,12 @@
     <name>Hall.xtg</name>
     <path>\Maps</path>
     <sha256>3e371b0a4c9b15ab229c3cd11b7bb2f08ced683f686afc5607190b6d336eb931</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>hall2.xtg</name>
+    <path>\Maps</path>
+    <sha256>515e7658a73431d23c87a663efdd453af0f4bb10a50ff8d4a31e09be8b8858bc</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1693,6 +1746,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Industry.xtg</name>
+    <path>\Maps</path>
+    <sha256>fd69e5089e62c8832b47bb565c823fdc2baa573d4dc0eb4515d4201ef2788a84</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Island.xtg</name>
     <path>\Maps</path>
     <sha256>1e62a43ba1c73505a831c303af16f4c4a1adff95081f1cd916dd3299a2f8a06f</sha256>
@@ -1702,6 +1761,12 @@
     <name>Jail.xtg</name>
     <path>\Maps</path>
     <sha256>b7a33bfa6926f31457f81f8080cc604ba3d71ee9185bbf8a6d1fe946ddf12ebf</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>KameHouse.xtg</name>
+    <path>\Maps</path>
+    <sha256>4334aad5ea999c04b1509eaa5ac1872c167a1aa09d067015a56a0d0d4bb94dad</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1768,6 +1833,12 @@
     <name>Mario-Castle.xtg</name>
     <path>\Maps</path>
     <sha256>0bcee1f0e6c4a977d71c740e583be4744dd835bcefa66a0db5a0123b829eebb3</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>mariocastle.xtg</name>
+    <path>\Maps</path>
+    <sha256>b7183b2a5543b29e09cdae43b4429a43715484bb5fb7ff55c9c17e8d569731ee</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1858,6 +1929,12 @@
     <name>prison.xtg</name>
     <path>\Maps</path>
     <sha256>d1fd2a9c88f5f2f406972b00b485650839778a386e1cac57512a39e9e72da520</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Property.xtg</name>
+    <path>\Maps</path>
+    <sha256>f0614deb437830efecf68b26aa81b40304c0add9bc68338b653845305ba9628c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2293,6 +2370,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Temple.xtg</name>
+    <path>\Maps</path>
+    <sha256>ecdf89192bf84c0f7f42034aa8d7cd33f9e5cc25ea760da4eaffb4571f4bb004</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>ThanhPhoCo.xtg</name>
     <path>\Maps</path>
     <sha256>9502cf063e2d1dc2a594aba598794f029aca12fe3916b7bf4f3226d80b6b031a</sha256>
@@ -2323,6 +2406,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>Town II.xtg</name>
+    <path>\Maps</path>
+    <sha256>c0015b5b7fcb58d04dc71e1f05cc3fa8c5b82ba04ae12a4e7676d9a259f05dc2</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Town.xtg</name>
     <path>\Maps</path>
     <sha256>b5eff88c9d785c409d5b9b810f41e43b4c577f4693bfe1b2a35c2f2fd6a1a621</sha256>
@@ -2332,6 +2421,12 @@
     <name>TownOld.xtg</name>
     <path>\Maps</path>
     <sha256>13d5f99991579253eb9c29fa24f7208a1b1bba402e23cf6136d19bbc6b4ee216</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Town_II.xtg</name>
+    <path>\Maps</path>
+    <sha256>95e85d1fd18cbab62759cc1be892f0d728906c7188074987e5e3bf8d62cb3c83</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
