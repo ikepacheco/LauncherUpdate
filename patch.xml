@@ -19,12 +19,6 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
-    <name>d3d9.dll</name>
-    <path>\</path>
-    <sha256>5ea4001ec0a3b0beb302d584f7c6785f7b8d938750bd314c1a81172360d5547d</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
     <name>D3DX9_43.dll</name>
     <path>\</path>
     <sha256>0b28546be22c71834501f7d7185ede5d79742457331c7ee09efc14490dd64f5f</sha256>
@@ -105,7 +99,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>c33447e9ea6c39fd201f798611ddfb33fbf4b253f70b961419e5666275b34e05</sha256>
+    <sha256>991f9dcc19a24db7a1e49d5618b800387ca330b3a5fc250bfe53207910425e8a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1063,6 +1057,18 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>d3d932.dll</name>
+    <path>\DXVK</path>
+    <sha256>00ecd422b3b12e9d3b309785f3f19431405389d80eb4a37018ebc63e2d87d900</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>d3d964.dll</name>
+    <path>\DXVK</path>
+    <sha256>ad0792d0f747c7d070d4d9b073c9b40349144313bf666b72b8fcb33aeedd80e4</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>combat.xtg</name>
     <path>\Interface</path>
     <sha256>833b08222c33a1e95fe51fd1e00f2f94a2b708e271fa2970b26d1847c2312ffd</sha256>
@@ -1071,7 +1077,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>6b3991861531d01661e26d6b419e32c4af8653193ad643e56c592610089210a0</sha256>
+    <sha256>2bdf43cca8fa652f34a4a0aec2fc8a595aae33fde66f2bbac217a2c6d7aa8439</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
