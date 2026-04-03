@@ -22,6 +22,7 @@
     <name>d3d9.dll</name>
     <path>\</path>
     <sha256>5ea4001ec0a3b0beb302d584f7c6785f7b8d938750bd314c1a81172360d5547d</sha256>
+    <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>D3DX9_43.dll</name>
@@ -110,7 +111,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>033b4bca9662b0c86e5c159326bd3b33d02458c9cc0c6603b0601207c3c8d463</sha256>
+    <sha256>f59937307745353e7db723b8417afc047410a719417a8aa452c40026d86265ac</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1545,6 +1546,12 @@
     <name>Factory.xtg</name>
     <path>\Maps</path>
     <sha256>f8f3dd2d55f75ada75f0a93014abe869dd2a46f031ab944f5b8bf3ca894be346</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Fight Club.xtg</name>
+    <path>\Maps</path>
+    <sha256>c915bb31ec619df8696e5d3a110aa77f36d7e0e694ac58cc238ed1af53890495</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
