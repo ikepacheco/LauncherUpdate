@@ -55,6 +55,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>GameNetworkingSockets.dll</name>
+    <path>\</path>
+    <sha256>4586af6a17c475adb4017ae32935ecce4be562dd4455bd0f8edbb7332fe67811</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>gdiplus.dll</name>
     <path>\</path>
     <sha256>830915b87cbc95217f58b8b499f73b618607c0164e0aa1217722eae18c1fb321</sha256>
@@ -99,13 +105,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>089a612c32c8fd48e5580e8aad95ae216278edebae19dd0cfbf5b7d3921f4da0</sha256>
+    <sha256>6e37a87f6b70d0a7e25d72c619f6029c8f1d17618ab087a2d5c62e6c1ad7c61c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>e4bfb30a37fb1b005515d62d2a578a37b0c9243fa805f94156d03ed6f99c406d</sha256>
+    <sha256>b97fb5b9dafa309abd644839f2225eb0b3d5f5c906e1c7c50ce4000f223f489e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1089,7 +1095,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>04a0cba7430e45ea416579ce626d7e9f2b5b0a9c9f93b9f439533731a2eb61bc</sha256>
+    <sha256>c826c7ae50e4c31c361529ced5e742d8756c61de745ade9f406a8bc65e99a5b7</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
