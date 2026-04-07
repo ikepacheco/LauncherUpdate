@@ -55,12 +55,6 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
-    <name>GameNetworkingSockets.dll</name>
-    <path>\</path>
-    <sha256>4586af6a17c475adb4017ae32935ecce4be562dd4455bd0f8edbb7332fe67811</sha256>
-    <delete>false</delete>
-  </fileitem>
-  <fileitem>
     <name>gdiplus.dll</name>
     <path>\</path>
     <sha256>830915b87cbc95217f58b8b499f73b618607c0164e0aa1217722eae18c1fb321</sha256>
@@ -105,7 +99,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>6e37a87f6b70d0a7e25d72c619f6029c8f1d17618ab087a2d5c62e6c1ad7c61c</sha256>
+    <sha256>ca58afc4f27c8a34d9ac31587d490e1760d6633d6811fb5f9a334e53eee53146</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
