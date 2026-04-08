@@ -99,7 +99,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>8c77eaf38aaed152d756a696844fc89098b97e665b9f7162cbb544d00e7098ab</sha256>
+    <sha256>94a3242c6cd1901452005f0ebf66f6b11d9a3b1739208e8b78fc098593c4ff47</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2596,6 +2596,12 @@
     <name>XTREME_WOMAN2.xtg</name>
     <path>\Model\woman</path>
     <sha256>816b23514471354b9eee9a8fa2b2b6f0560be39c0222fead2f783738986a505a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>ScreenOutline.pso</name>
+    <path>\shader</path>
+    <sha256>b5b6fd522e412fdaca1b9e374b225cb727e5044c45bac35af5623ca6ba0fbfa2</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
