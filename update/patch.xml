@@ -81,7 +81,7 @@
   <fileitem>
     <name>Model.xtg</name>
     <path>\</path>
-    <sha256>672210b865a48f8ecad4cf4b3464136d1bb53ae2d402b3943aeabea5758070ff</sha256>
+    <sha256>44664d0202872fdb54e97134fd8420e32292464b0aa3ab135bd9aabac3e566e6</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>5c6f628fed0afb6fe2aa69217d6950f6380421764bf326358caa4ca88b3d3242</sha256>
+    <sha256>f166dda4797a614c7788585201678889c0d7e542c7fcf310f38166eff69695fc</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>b97fb5b9dafa309abd644839f2225eb0b3d5f5c906e1c7c50ce4000f223f489e</sha256>
+    <sha256>3f10e0c00cf705debbb5120a48fe420ca5aeb3b2b7a43d6547b14e53add18def</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2503,6 +2503,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>npc.xtg</name>
+    <path>\Model</path>
+    <sha256>bb77eaeb7b4e214b2a0532b57655cdba88a726e1f76f3542f2a62229ef4a8404</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
     <sha256>00dcd4967956a604811798e2c50a13e16b35b1469721cb6781ccef563431152e</sha256>
@@ -2517,7 +2523,7 @@
   <fileitem>
     <name>worlditem.xtg</name>
     <path>\Model</path>
-    <sha256>74939efb0019797f3e396f48fe0c33f26db871c9dd8671c9f95483c36b642a52</sha256>
+    <sha256>414f52e28be363ea1ac0242feb688974d7e757825ce9756ed178b4638ad99805</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2527,9 +2533,33 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>blade.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>ad7d72c80af4da4408b001a11564643ab7708b646cdb4194eb26ec3acd5c13a4</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>dagger.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>3d93351e23d24df323e51ee2ea77c9d31dfd9bf165c3529f48c9f871d416dc6f</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>Event.xtg</name>
     <path>\Model\weapon</path>
     <sha256>e92ca389d2dc114486f4c99a787fec231bf081ff3eb9b29afa97e860784fc91b</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>grenade.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>f1518eaeeb1545b43a260fe2d8dc48694f32b23bd84996a55ee44d86b97bb048</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>item.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>4bb1bd3bb015f71c5a3dedc658d2adeeade0e18ed4b4d3df963ea632a6384110</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2542,6 +2572,24 @@
     <name>MGCash.xtg</name>
     <path>\Model\weapon</path>
     <sha256>72d932307bcc752d8853a47ec109d907a374d5ff22c912485e5c2955164209ae</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>pistol.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>f25cf715ad76ac0b71f4c7b3924896a7240f0e9e3368b8b340757a01e32629d6</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>rifle.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>e1446fc35843b11e3247bf6bab83a70bb057be0e6bc778b257b393b416d35848</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>rocketlauncher.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>3a1ed34e138452d8b83508a3e42d1aaa8c4260f9aad68228d29bbc423d7d55c3</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2560,6 +2608,12 @@
     <name>Staff.xtg</name>
     <path>\Model\weapon</path>
     <sha256>e519310c17cc151080af7acdb4e62af623730b1f3e588b2a77811ad56e42e43d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>sword.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>d0304f73d25d5690a2474c5e11692e313ae045c5df7ad00c81c9ac16852e0181</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
