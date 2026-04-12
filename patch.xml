@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>3f10e0c00cf705debbb5120a48fe420ca5aeb3b2b7a43d6547b14e53add18def</sha256>
+    <sha256>254a4de6f5f8cd9fa70947f3e641df69f14cf60ff5caf22b18d4f19087e54b73</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2533,6 +2533,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>XTREME_MAN.xtg</name>
+    <path>\Model\man</path>
+    <sha256>7519255c1a946d13a1c525c17b72c5164560b1b65b67b01a7a97ba7b4af0b793</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>blade.xtg</name>
     <path>\Model\weapon</path>
     <sha256>ad7d72c80af4da4408b001a11564643ab7708b646cdb4194eb26ec3acd5c13a4</sha256>
@@ -2553,7 +2559,7 @@
   <fileitem>
     <name>grenade.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>f1518eaeeb1545b43a260fe2d8dc48694f32b23bd84996a55ee44d86b97bb048</sha256>
+    <sha256>299001df704ed42f9d1dd98f0a2f6938c57e7a861751c9cc78dd26b1ff8f211f</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2565,13 +2571,19 @@
   <fileitem>
     <name>katana.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>b0769bbe586f326c5b61d44c974ec81c20d28b588416ae7c64db661055d3b168</sha256>
+    <sha256>7a3087096c662bf2e6a535dd59374af2e8221e31d329fb71d9ad7fdc4c73735e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>MGCash.xtg</name>
     <path>\Model\weapon</path>
     <sha256>72d932307bcc752d8853a47ec109d907a374d5ff22c912485e5c2955164209ae</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>newitems.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>1f5c619c654549cc4299b9cb0145db8dd1d2a7a03a1003765f9773dc81603208</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2650,6 +2662,12 @@
     <name>XTREME_WOMAN2.xtg</name>
     <path>\Model\woman</path>
     <sha256>816b23514471354b9eee9a8fa2b2b6f0560be39c0222fead2f783738986a505a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>XTREME_WOMAN3.xtg</name>
+    <path>\Model\woman</path>
+    <sha256>af57f84512bda7a0e1331fa711180c7d28d3dc24bfe92792f3776a15b645b8e7</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
