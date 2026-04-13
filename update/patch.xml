@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>b8618e03f539f2574c71d0686587779f6b7f26700118338e117b258a0b93a9fd</sha256>
+    <sha256>44363b985974df7bd8a60663e2df8b36f65a784e48091552e1751823aa3f65e9</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>ee2df4221c70bc0133f101780e6120fdcd5defbad334c39a374ab93f6f179aaf</sha256>
+    <sha256>e017e325999fb0dbb64f6f7bf0236a27875ac8aa1cc92d9b9546c265a2ef58ca</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1089,7 +1089,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>7f7555467770463174d56a5f64606aac7d6e9c2effb2c0b8c6ebf4110a2bd6ac</sha256>
+    <sha256>144bcfef673106b7fcb8a57e91c287f5d4431a7d689c71a6415128ce0f1ea4bc</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1366,6 +1366,12 @@
     <name>City II.xtg</name>
     <path>\Maps</path>
     <sha256>09d8cca818ee16d0142b4a6f1a758e202642423c58a0b2399533d3a9caaffe29</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>City.xtg</name>
+    <path>\Maps</path>
+    <sha256>c4f42d6415e600f91e9205dc2061400cdff175c732cdb07f2a28b5a38d224ccd</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1762,6 +1768,12 @@
     <name>House_Simpsons2.xtg</name>
     <path>\Maps</path>
     <sha256>684fd380300f8ddc80d43a99f8c27883184b1066f2f574180f5c4142feed9168</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>Hydrogen.xtg</name>
+    <path>\Maps</path>
+    <sha256>b9f3c7af4d5fdb1c2ab793d3a3bf5fa9dc6a923e6be14775358f16a01c3bb9f0</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
