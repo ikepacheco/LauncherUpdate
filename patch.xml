@@ -105,7 +105,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>040d8e0d37099fa285f923bce60bf43421ef042f60cfa00a815e60d4ac3e234c</sha256>
+    <sha256>a715a815167c931a855d2e2bcfc07c4e84a102f88b8022de96c41b6453980d36</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1089,7 +1089,7 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>7550a8a167e778286fe068fc49e159bb51a439172756f9605133423b3daed607</sha256>
+    <sha256>f98e2dfb8405fc7262849f6c47a440083ec4f54fc69bfbac5c808db484bfc44d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
