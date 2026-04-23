@@ -93,13 +93,13 @@
   <fileitem>
     <name>sfx.xtg</name>
     <path>\</path>
-    <sha256>e47c2515671027dad3ff2081a823da23b8643d02a99f7b030092448c7ad1381c</sha256>
+    <sha256>e0de49786363553923b794384aff46429dc654e365a2edeb79881fcb8f7dbaec</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>8a6ca446af04724f7f37edd680ab616f22186c6bc5912b9c0df4263d54a4aa8c</sha256>
+    <sha256>eeeee117bf6387492bc7db49a406ad99e1d38b456f63c384982d4a2084950634</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
