@@ -99,13 +99,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>33459d91944e464e96b3bff44f748d9c7dbf2bd4fc34b1df4f9d9004d2b6dd76</sha256>
+    <sha256>daa80cde20988ad5f8270d4806cd0c1adc847ab820130f5dd927cf2205a8c545</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>bd3b956d3a67693419385e0906cb510ef5e5c39e0c416bee6051d879ec82c187</sha256>
+    <sha256>070dc9da80d1d5124bd570e59902ad17d2cdb7604bcbf21383bbd7a9013057df</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
