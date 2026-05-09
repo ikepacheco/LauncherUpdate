@@ -99,7 +99,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>0388c2c3165dfaaefb22a3160e3f0a0e11a21801eef6eaccdec9428ce71e3b3b</sha256>
+    <sha256>0c9fc97b466c5231ce5e3b8eb96b97bc5f2f293afb278d4a58776a0a528ca2d3</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2685,7 +2685,7 @@
   <fileitem>
     <name>ScreenOutline.pso</name>
     <path>\shader</path>
-    <sha256>b5b6fd522e412fdaca1b9e374b225cb727e5044c45bac35af5623ca6ba0fbfa2</sha256>
+    <sha256>689ec2c97e8e57267b778f3cdacf3a64042e2421f31be96e6409942e11e12f03</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
