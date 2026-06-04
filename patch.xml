@@ -19,6 +19,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>CrashUploader.exe</name>
+    <path>\</path>
+    <sha256>6c785597ea3c913a9997506f4dd863ae57718fcf4c74b8dde2bc62bd4b4b996d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>D3DX9_43.dll</name>
     <path>\</path>
     <sha256>0b28546be22c71834501f7d7185ede5d79742457331c7ee09efc14490dd64f5f</sha256>
@@ -99,7 +105,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>0c9fc97b466c5231ce5e3b8eb96b97bc5f2f293afb278d4a58776a0a528ca2d3</sha256>
+    <sha256>849fd717ca9643567a330546abe9821b976f977ae241a76675c59829d8364e84</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>

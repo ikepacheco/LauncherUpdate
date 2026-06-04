@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <XML>
 <PATCHINFO>
+	<PATCHNODE file="./CrashUploader.exe">
+		<SIZE>124440</SIZE>
+		<CHECKSUM>31b1111a829b3e48f5767777c022e1eb</CHECKSUM>
+	</PATCHNODE>
 	<PATCHNODE file="./system.xtg">
 		<SIZE>221091</SIZE>
 		<CHECKSUM>67b04fbde1cdab3055b442795cbaf324</CHECKSUM>
