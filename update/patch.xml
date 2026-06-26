@@ -99,19 +99,19 @@
   <fileitem>
     <name>sfx.xtg</name>
     <path>\</path>
-    <sha256>e0de49786363553923b794384aff46429dc654e365a2edeb79881fcb8f7dbaec</sha256>
+    <sha256>819f08f0ba8ee3f994e945c1c9405c1361ce1e9fba9841bab9f6ea5ea46bdf1b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>e0671f160635d13d32488626ab9278ea197d9899346549c0b8021c02e1ce70a4</sha256>
+    <sha256>ddf79ec2ce3a5aeab8c9c2b9462574a0fbd60bc461a15349dfd9273fbfb7ab9d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>070dc9da80d1d5124bd570e59902ad17d2cdb7604bcbf21383bbd7a9013057df</sha256>
+    <sha256>3c8be1c12fe34658ecf6023fc7b138e6319ff504313446464ff0e618fd6c3b7e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2686,6 +2686,12 @@
     <name>XTREME_WOMAN3.xtg</name>
     <path>\Model\woman</path>
     <sha256>916e04188cee11a42268fb91785eefda726c5bed09ffe221694605d4e788a74d</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>XTREME_WOMAN4.xtg</name>
+    <path>\Model\woman</path>
+    <sha256>27643fb705337ccb3df89aefed0c4fd88439effad336bf0286cfb70fa5bfabbe</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
