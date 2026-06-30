@@ -111,7 +111,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>3c8be1c12fe34658ecf6023fc7b138e6319ff504313446464ff0e618fd6c3b7e</sha256>
+    <sha256>0d6bbf33ff1b884cfaecea97e317b5148ef51057038c6f90a8f10558a20dad7a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2557,6 +2557,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>XTREME_MAN1.xtg</name>
+    <path>\Model\man</path>
+    <sha256>8c57009f99004c557ed7d6aa8486d6731d39b507d9bfd8cf4348619965ba9f77</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>blade.xtg</name>
     <path>\Model\weapon</path>
     <sha256>ad7d72c80af4da4408b001a11564643ab7708b646cdb4194eb26ec3acd5c13a4</sha256>
@@ -2653,6 +2659,12 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>weapon_new1.xtg</name>
+    <path>\Model\weapon</path>
+    <sha256>7c1f684aef2daa779c6b97d7f92d12273591f0d442986618d525524a40d8a26a</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>weapon_premium.xtg</name>
     <path>\Model\weapon</path>
     <sha256>b3e548a849ca7003fd5428e15906671915d2e872ee4664d03ddde976401ac516</sha256>
@@ -2691,7 +2703,7 @@
   <fileitem>
     <name>XTREME_WOMAN4.xtg</name>
     <path>\Model\woman</path>
-    <sha256>27643fb705337ccb3df89aefed0c4fd88439effad336bf0286cfb70fa5bfabbe</sha256>
+    <sha256>181edf0fe0c25525aa5eb2a18189f45259e982cf86202624feeb08d2b087faf9</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
