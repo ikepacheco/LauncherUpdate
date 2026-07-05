@@ -26,10 +26,33 @@ jobs:
           ref: main
           path: main
 
-      - name: Copy assets to /update/
+      - name: Replace /update/ with latest release assets
         run: |
+          rm -rf main/update
           mkdir -p main/update
-          cp release_assets/* main/update/
+          cp -a release_assets/. main/update/
+
+      - name: Check /update/ folder size
+        shell: bash
+        run: |
+          echo "Tamaño total de main/update:"
+          du -sh main/update
+
+          echo "Archivos más pesados:"
+          find main/update -type f -exec du -h {} + | sort -hr | head -50
+
+      - name: Stop if /update/ is too large
+        shell: bash
+        run: |
+          SIZE=$(du -sb main/update | cut -f1)
+          MAX=900000000
+
+          echo "main/update size: $SIZE bytes"
+
+          if [ "$SIZE" -gt "$MAX" ]; then
+            echo "ERROR: main/update pesa más de 900 MB. No se hará commit para evitar romper GitHub Pages."
+            exit 1
+          fi
 
       - name: Commit and push to main
         run: |
