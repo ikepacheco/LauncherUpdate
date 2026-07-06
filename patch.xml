@@ -99,7 +99,7 @@
   <fileitem>
     <name>sfx.xtg</name>
     <path>\</path>
-    <sha256>819f08f0ba8ee3f994e945c1c9405c1361ce1e9fba9841bab9f6ea5ea46bdf1b</sha256>
+    <sha256>a339f6920eaf77ae83be1b492e3bd3ac3e33c7e140158394c44825d144a9ffd4</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1089,13 +1089,13 @@
   <fileitem>
     <name>combat.xtg</name>
     <path>\Interface</path>
-    <sha256>833b08222c33a1e95fe51fd1e00f2f94a2b708e271fa2970b26d1847c2312ffd</sha256>
+    <sha256>b8bf7d7a376e7924bf677842f9956d3be7dc38dcc301c46c3e68e2524aac7008</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>3e6591733c89f7e1c0e0bc6b33b5d18a11d292b67dade676aa69f24832bea7d2</sha256>
+    <sha256>a207c0a618a7d8003ac0a4f3f07c17c02bc339b84ad1fce07f21451ce2f5895e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2517,193 +2517,193 @@
   <fileitem>
     <name>man.xtg</name>
     <path>\Model</path>
-    <sha256>38f908483724ee30df2ac0bbdefa29e702fb5b6293676aac14c81c06c277752c</sha256>
+    <sha256>588abd6cf5c12b1eef05a11b7b3b7ccde98deb70cf569a15b11a570e76fb0874</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>npc.xtg</name>
     <path>\Model</path>
-    <sha256>bb77eaeb7b4e214b2a0532b57655cdba88a726e1f76f3542f2a62229ef4a8404</sha256>
+    <sha256>765a746382a844e4579d0346d4d88449614f5b3a58b87662fa58f0f494582942</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>weapon.xtg</name>
     <path>\Model</path>
-    <sha256>a5201d5cf89f0b202f268334b9740957c8cbad881de902fdb703bab91de86df6</sha256>
+    <sha256>bfdbb66bb9fe232f7f4f8951cfb4c599b85a88493832f3b3ce87f31ff80bc17d</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>woman.xtg</name>
     <path>\Model</path>
-    <sha256>3978d971e3bfac5a4f728eb2478ec8a965a293394d986094a6f051cf797b3132</sha256>
+    <sha256>9b50481ab27f41b440ad78f6255832d1214e57d7aca799b810961e1f9d7eda4b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>worlditem.xtg</name>
     <path>\Model</path>
-    <sha256>414f52e28be363ea1ac0242feb688974d7e757825ce9756ed178b4638ad99805</sha256>
+    <sha256>563d85549f5a54a45907032e63e12520f088dca39a506f1d747b325deec68b41</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>CLASSIC.xtg</name>
     <path>\Model\man</path>
-    <sha256>9bbc3000aa6cd5ca1f0934931266eb839e7961f2a292886080bb6c37097e6377</sha256>
+    <sha256>4dd2cb283490477f2bfeab74a1cda47d3d11a5fdfdbb62a2501c1eeeb25678a0</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_MAN.xtg</name>
     <path>\Model\man</path>
-    <sha256>7519255c1a946d13a1c525c17b72c5164560b1b65b67b01a7a97ba7b4af0b793</sha256>
+    <sha256>bcb4eae848a56a3963e97d3143fc26f96f70e4e143641b18f4f07f2dc2be4b13</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_MAN1.xtg</name>
     <path>\Model\man</path>
-    <sha256>8c57009f99004c557ed7d6aa8486d6731d39b507d9bfd8cf4348619965ba9f77</sha256>
+    <sha256>8a8bc9268438f1ce6cc8ac51986cfb7e8372b55800d91d481dc0f2ac2d3da067</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>blade.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>ad7d72c80af4da4408b001a11564643ab7708b646cdb4194eb26ec3acd5c13a4</sha256>
+    <sha256>82cabadf8ef4429edbb4ea5e207801f0174766992e010326a27dc1b6959974ee</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>dagger.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>3d93351e23d24df323e51ee2ea77c9d31dfd9bf165c3529f48c9f871d416dc6f</sha256>
+    <sha256>6a1823455c79c644d527930492aecce83ecaf760caf8be8f5ce37cf76b530e0a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>Event.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>e92ca389d2dc114486f4c99a787fec231bf081ff3eb9b29afa97e860784fc91b</sha256>
+    <sha256>202ae8a8be11a7db3a60f0b2eb18fab8d72a755af5ca5c3819cc8f220d780de5</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>grenade.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>299001df704ed42f9d1dd98f0a2f6938c57e7a861751c9cc78dd26b1ff8f211f</sha256>
+    <sha256>eb815db45685595a048c652011b3257453386bfff6caceb7615c4d03bbfa072b</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>item.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>98801bb4afe1a2da5d6b095a6953065e77ffece4ae69ab7892fb447ced62ff77</sha256>
+    <sha256>59cefc5ac10b3002bd897527d4063243d247e5e5d688b1daa0f00a5a4b96e88a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>katana.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>77582840cbb97db775c13def3911160ae889090d41714d7f6e656402508fb80a</sha256>
+    <sha256>92b6eefa5a63928480e4a0fa7f0b4d00942ef4d03894cb385f9bcfa9477f9ba5</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>MGCash.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>72d932307bcc752d8853a47ec109d907a374d5ff22c912485e5c2955164209ae</sha256>
+    <sha256>3268a30660919d99c261c8c944d1ae6a9657d484404704b2a93047cfaea11bd8</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>newitems.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>2035d5e3151e8a2ea3089587b02f652e42939f38985eff582bb4d90793c9fa91</sha256>
+    <sha256>58a4a88a5eaf176a513e5e42a68459104e6b8ecb361042847ab8c3056b3f6e0c</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>pistol.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>f25cf715ad76ac0b71f4c7b3924896a7240f0e9e3368b8b340757a01e32629d6</sha256>
+    <sha256>f1ceba0b87ecd9acfb3bba0019f8fa53f0ef6e0908e656ccddb4b1b575f2bfae</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>rifle.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>e1446fc35843b11e3247bf6bab83a70bb057be0e6bc778b257b393b416d35848</sha256>
+    <sha256>8f66bd69b15fac82a0804fcebb825f108a1b3d0c7a287ae946e921d0fbb16187</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>rocketlauncher.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>3a1ed34e138452d8b83508a3e42d1aaa8c4260f9aad68228d29bbc423d7d55c3</sha256>
+    <sha256>c087b6c095589080c051fbedf1d3a2890d66fdf311271c3e52c2645d2841b492</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>shotgun.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>a8bb54d015bf06707375f03c4f0a35bb2e2054027dec1c80ee5a261cb3eab65e</sha256>
+    <sha256>9784424aa072b330353c8b1fb635e4d0bf912b9fdf189c5da15a82ab5b2a42e1</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>snifer.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>8038909c951d9a8c5d4e96821262475428f8f8126047f5662812d94073651109</sha256>
+    <sha256>34dbe2d235cb81521a445043764eb18db3e046dc72136c295be06deb8cfbb372</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>Staff.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>e519310c17cc151080af7acdb4e62af623730b1f3e588b2a77811ad56e42e43d</sha256>
+    <sha256>829828a92499e82eb8720662d0441848698966006edf643449b697ce2675264e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>sword.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>d0304f73d25d5690a2474c5e11692e313ae045c5df7ad00c81c9ac16852e0181</sha256>
+    <sha256>fff2f8a8c5ac7b19c1887d0db73243564f3160bfbf534041c01cfcf5d64c8bb5</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>weapon_new.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>4913552383fd6b5891f4a5588340f09aa70accb9cc00516684f88149932a1180</sha256>
+    <sha256>a6d60f522441936ec310a99e3a94494582c2a504ab6e2f13baa3f9ca4fcd039e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>weapon_new1.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>7c1f684aef2daa779c6b97d7f92d12273591f0d442986618d525524a40d8a26a</sha256>
+    <sha256>46ff0cd31af9a583eaf36ff510f23ae077b9859337755fb7aa0ecd0c568bfa52</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>weapon_premium.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>b3e548a849ca7003fd5428e15906671915d2e872ee4664d03ddde976401ac516</sha256>
+    <sha256>6b35e13b146a576538be0d41736e325f9bb04e0b5ad0917c4a0d464cc868e256</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>CLASSIC.xtg</name>
     <path>\Model\woman</path>
-    <sha256>22890dd9514b0b5a4c0fecf1872ebf389182ab1c8a7fe3cfb1606e78b9f0f2a5</sha256>
+    <sha256>72ff73ecaa040ab593544c679dbf905289a8dd84511e3772f88e394d9737fb68</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_WOMAN.xtg</name>
     <path>\Model\woman</path>
-    <sha256>089f68e0ba07d5a4fda6f5495699639bd8c28ac652d7d9a9990e3e8b37a29868</sha256>
+    <sha256>27b4f82ba9891331976df04599db5f3e0932f71d019de1e4d11bcaec6ac8a9cc</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_WOMAN1.xtg</name>
     <path>\Model\woman</path>
-    <sha256>460e9eb2fa78ecdb842506c8908b43dc3400e8a00d6c59c6c1dd1390c2dcc8d7</sha256>
+    <sha256>c08ce4f51a12ac0ec35c736e6783135dc32065f508984b5faa6df29162c4fdc3</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_WOMAN2.xtg</name>
     <path>\Model\woman</path>
-    <sha256>dd16acba83c99fac872e22a99b997832f76da8c6586e83d3e05676588c41394e</sha256>
+    <sha256>5a2aa3981bb52de5818efc370dd623593ce020e4e230a4de47d02247e5b5890e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_WOMAN3.xtg</name>
     <path>\Model\woman</path>
-    <sha256>916e04188cee11a42268fb91785eefda726c5bed09ffe221694605d4e788a74d</sha256>
+    <sha256>7a15d6bc7770d03881edd7b11af9075f7e3b3246bad053b1dfb3ab8517539eef</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>XTREME_WOMAN4.xtg</name>
     <path>\Model\woman</path>
-    <sha256>7cc9c8f58e7a3518847985238e729bce3d4b69e452ef17cda55545b60d537932</sha256>
+    <sha256>c1255d6055c86f7ca6140549d8ead5461b9c58b33ca6d02ed2bb1aef893a93f1</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
