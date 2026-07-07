@@ -31,9 +31,15 @@
     <delete>false</delete>
   </fileitem>
   <fileitem>
+    <name>dbgcore.dll</name>
+    <path>\</path>
+    <sha256>600c2ae74bd3a73a43543e0ca00c13888af3c4ffd96e15a28af32160daef326b</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
     <name>dbghelp.dll</name>
     <path>\</path>
-    <sha256>5799aff4e0e6e6df240d7c942e0549498c8b498a1b96d4abef9f550bb8bd0771</sha256>
+    <sha256>27b9283165e12f165d0034d0ed084cd41ab981d09842bc7c9aa817276829881e</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -105,7 +111,7 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>16f736e5001480c81fe27f834f8965cb450fd94b3c4f7c2f5c5ed61eaaa101f6</sha256>
+    <sha256>92a7982ea89473e4f435905295fbdc41fe933d0d79ba83ea610bcea4929da004</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
