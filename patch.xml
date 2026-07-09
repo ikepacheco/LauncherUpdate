@@ -117,7 +117,7 @@
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>2f33d99464c6aa1066430f4a8c65b3e8ad0a478c2f410a692ef501724c274d89</sha256>
+    <sha256>3a3db40edba4c8c9482c46efdc43fd4800753e342d65d8c4dde942916b6b29c0</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -1101,13 +1101,13 @@
   <fileitem>
     <name>default.xtg</name>
     <path>\Interface</path>
-    <sha256>a207c0a618a7d8003ac0a4f3f07c17c02bc339b84ad1fce07f21451ce2f5895e</sha256>
+    <sha256>0034aafd8a4df7df3017b1c9814ac350d011b7ef221b379fb6f8c3a66f9e9279</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>icons.xtg</name>
     <path>\Interface</path>
-    <sha256>a7569856f3f6a7d2ea9baddd779d4e03a4b55020ed26721eb07060457549d5d0</sha256>
+    <sha256>6b900641f303db0ae82d32504e1c5d72fac9607fe4b862230c8c2bee74d1f7be</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2565,7 +2565,7 @@
   <fileitem>
     <name>XTREME_MAN1.xtg</name>
     <path>\Model\man</path>
-    <sha256>8a8bc9268438f1ce6cc8ac51986cfb7e8372b55800d91d481dc0f2ac2d3da067</sha256>
+    <sha256>4d922ccb593d3fb6880974d86fc0b3306215cac784f69dc516d9d86718bb9b27</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2667,7 +2667,7 @@
   <fileitem>
     <name>weapon_new1.xtg</name>
     <path>\Model\weapon</path>
-    <sha256>46ff0cd31af9a583eaf36ff510f23ae077b9859337755fb7aa0ecd0c568bfa52</sha256>
+    <sha256>b46465bfb0d3cec7cdf7d641d2afeb78189999ce3e6c65a98ef9fff7d731a737</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2709,7 +2709,7 @@
   <fileitem>
     <name>XTREME_WOMAN4.xtg</name>
     <path>\Model\woman</path>
-    <sha256>c1255d6055c86f7ca6140549d8ead5461b9c58b33ca6d02ed2bb1aef893a93f1</sha256>
+    <sha256>a16bcda69ca4752b931878c9e32a9b2a355dd1a8a85e5a083ad0069b2e52171a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
