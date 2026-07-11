@@ -111,13 +111,13 @@
   <fileitem>
     <name>shield.dll</name>
     <path>\</path>
-    <sha256>adca0f9c128a6cd894ed999a7924696eda7191b0b809d723750ed9e719559eb2</sha256>
+    <sha256>da25e2c36a33dfcabee4c3c3097bc33a4533e6620c055190a474754d3b9beaa8</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
     <name>system.xtg</name>
     <path>\</path>
-    <sha256>3a3db40edba4c8c9482c46efdc43fd4800753e342d65d8c4dde942916b6b29c0</sha256>
+    <sha256>31b3afd2a7b325aada9a64251a217b12b4b40fe8a0e6d3419f118fcca2cf3cd9</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
@@ -2728,6 +2728,12 @@
     <name>skin1.vso</name>
     <path>\shader</path>
     <sha256>7f27a848c5b22ff1195d8fae829d4bc2143289d09e5ac07f3bd2b30bdb1b7bfd</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>skin4.vso</name>
+    <path>\shader</path>
+    <sha256>10862f50dd7361aee362fa912b6853abb87d462fac7329272570ba9b4f43d65a</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
