@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <downloadfile>
+  <baseurl>https://updates.xtreme.ovh/</baseurl>
   <fileitem>
     <name>api-ms-win-crt-runtime-l1-1-0.dll</name>
     <path>\</path>
@@ -124,6 +125,12 @@
     <name>xTreme Entertainment PE.cer</name>
     <path>\</path>
     <sha256>5b38ab430cdabc991fb43bfac3bee6ad75f3503d25ec47a91dfb744dfb556953</sha256>
+    <delete>false</delete>
+  </fileitem>
+  <fileitem>
+    <name>xTremeLauncher.exe</name>
+    <path>\</path>
+    <sha256>6e9ec7576417cfd286903aa0f310caaf405360ba8bfe26e70dec78596d3cc1c0</sha256>
     <delete>false</delete>
   </fileitem>
   <fileitem>
