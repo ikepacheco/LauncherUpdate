@@ -1,1 +1,1 @@
-Scoreboard fixed.
+Rotatable shop added.
