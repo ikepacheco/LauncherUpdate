@@ -1,1 +1,2 @@
-Rotatable shop added.
+Voice Chat added.
+SkillMap Mode added -> only some maps.
