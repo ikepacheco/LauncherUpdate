@@ -1,4 +1,1 @@
-New VIP Ranks added.
-New Top items added.
--Effect items direction fixed.
--New VIP/Country icons added to classic scoreboard.
+Now you can see more items in shop/equipment.
