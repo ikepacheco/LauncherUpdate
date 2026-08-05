@@ -1,2 +1,4 @@
-Voice Chat added.
-SkillMap Mode added -> only some maps.
+New VIP Ranks added.
+New Top items added.
+-Effect items direction fixed.
+-New VIP/Country icons added to classic scoreboard.
