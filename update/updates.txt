@@ -1,5 +1,1 @@
-Fixed text resolution.
-Now at higher resolutions the text looks completely clear in different parts of the interface. 
--Now the damage float can be visualized better. 
--Performance improvement regarding global text.
--Now classic chat text is displayed clearly and its size adapts to the resolution.
+Better killfeed.
